@@ -2,13 +2,15 @@ These are the scripts associated with the submission to ACP:
 "Aerosol-cloud impacts on aerosol detrainment and rainout in shallow maritime tropical clouds"
 Leung et al. (202X)
 
-RAMS source code has also been provided. These simulations were run on the NASA Pleiades supercomputer
-and thus configuration files ("rams_6.3.03/include.mk") are set up with the paths/modules available there. 
-If you wish to rerun these simulations, you will have to change the libraries for your specific circumstances.
+RAMS source code, a sample RAMS namelist and a sample REVU namelist have also been provided. 
+These simulations were run on the NASA Pleiades supercomputer and thus configuration files 
+("rams_6.3.03/include.mk") are set up with the paths/modules available there. If you wish to
+rerun these simulations, you will have to change the libraries for your specific circumstances.
 By default, the RAMS source code assumes regenerated aerosol are sulfate-type in terms of their radiative
-properties. To change this, edit the source code in "rams_6.3.03/src/6.3.03/radiate/rad_aero.f90" on the indicated line.
-Make sure to recompile RAMS every time this is done (i.e. every time running for a different aerosol type.) 
-More information on RAMS can be found: https://vandenheever.atmos.colostate.edu/vdhpage/rams/rams_docs.php
+properties. To change this, edit the source code in "rams_6.3.03/src/6.3.03/radiate/rad_aero.f90" 
+on the indicated lines (79-82). Make sure to recompile RAMS every time this is done (i.e. every 
+time running for a different aerosol type.) More information on RAMS can be found at: 
+https://vandenheever.atmos.colostate.edu/vdhpage/rams/rams_docs.php
 
 Python analysis scripts should be run before the jupyter notebook for creating the final figures.
 The environment can be found under aerobudget.yml to see necessary packages.
