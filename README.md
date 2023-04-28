@@ -1,6 +1,6 @@
-These are the scripts associated with the submission to ACP:
+These are the scripts associated with the following paper in ACP:
 "Aerosol-cloud impacts on aerosol detrainment and rainout in shallow maritime tropical clouds"
-Leung et al. (202X)
+Leung et al. (2023)
 
 RAMS source code, a sample RAMS namelist and a sample REVU namelist have also been provided. 
 These simulations were run on the NASA Pleiades supercomputer and thus configuration files 
